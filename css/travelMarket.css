@@ -1,0 +1,28 @@
+@charset "utf-8";
+body{font-family: "微软雅黑";}
+.logo2{
+	display: block;
+	width: 3rem;
+	height: 1rem;
+}
+.travelPoint{
+	margin-top: .1rem;
+	border-top: 1px solid #ccc;
+	width: 100%;
+	padding-top: .15rem;
+	height: 5rem;
+}
+.travelPoint li{margin-bottom: .15rem;}
+figure{position: relative;}
+
+figure img{display: block;width: 1.6rem;}
+figure figcaption{display: block;position: absolute;top: 0;right: 0;width:48% ;color: #666;}
+figure figcaption p{font-size: .12rem;margin-top: .1rem;height: .3rem;text-overflow: ellipsis;overflow: hidden;}
+.travelPoint figure>p{
+	font-size: .16rem;
+	color: #f60;
+	position: absolute;
+	bottom: 0;
+	right: .9rem;
+}
+.travelPoint figure>p strong{font-size: .18rem;}

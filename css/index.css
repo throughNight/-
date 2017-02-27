@@ -1,0 +1,95 @@
+@charset "utf-8";
+.tickets{
+	border: 1px solid #478DCD;
+	border-radius: .04rem .04rem 0 0;
+	width: 98%;
+	margin: .1rem auto 0;
+}
+.tickets h2{
+	font-size: .14rem;
+	font-weight: normal;
+	background: #478DCD;
+	height: .32rem;
+	line-height: .32rem;
+	border-radius: .04rem .04rem 0 0;
+	text-indent: .2rem;
+	color: white;
+}
+.ticketSearch .travel{
+	padding-top: .1rem;
+}
+.ticketSearch .travel label{
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+.ticketSearch .travel input{
+	height: .18rem;
+	padding: .05rem;
+	width: 94%;
+}
+.ticketSearch .travelType{
+	font-size: .12rem;
+	width: 95%;
+	margin: 0 auto;
+	padding: .1rem 0;
+	border-bottom: 1px solid #478DCD;
+}
+.ticketSearch .travelType input{
+	vertical-align: middle;
+	margin-left: .3rem;
+}
+
+.ticketSearch .custormType{
+	width: 50%;
+	margin: .1rem auto 0;
+}
+.ticketSearch .custormType .right{
+	float: right;
+}
+.ticketSearch .searchButton{
+	width: 70%;
+	margin: .1rem auto;
+	background: #f60;
+	text-align: center;
+	font-weight: bold;
+	height: .3rem;
+	line-height: .3rem;
+	border-radius: .04rem;
+	font-size: .16rem;
+}
+.ticketSearch .searchButton a{
+	color: white;
+	display: block;
+	text-indent: .2rem;
+	letter-spacing: .2rem;
+}
+/*出行向导*/
+.travelGuide figure{
+	float: left;
+	padding: .05rem;
+	box-sizing: border-box;
+	width: 20%;
+}
+.travelGuide figure img{margin: 0 auto;}
+.travelGuide figure figcaption{
+	text-align: center;
+	color: #333;
+	font-size: .12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

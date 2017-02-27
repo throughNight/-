@@ -1,0 +1,10 @@
+@charset "utf-8";
+body{font-family: "微软雅黑";}
+.myaccout{color: white;height:.53rem;line-height: .53rem;background: url(../img/bg_tlisthd.png) repeat-x;font-weight: bold;font-size: .16rem;text-align: center;margin-top:.08rem ;}
+.content a{color: #666;}
+.content ul{margin: .2rem 0 0;border-top:1px solid #ccc ;border-bottom: 1px solid #ccc;width: 100%;background: white;text-indent: .15rem;}
+.content ul li{width: 90%;height: .3rem;margin: 0 auto;line-height: .3rem;border-bottom: 1px solid #eee;}
+.content ul li.bordernone{border: none;}
+.content ul li i{float: right;margin-right: .15rem;color: #666;}
+.quit{text-align: center;width: 100%;height: .3rem;line-height: .3rem;position: absolute;bottom: 8%;}
+.quit a{color: white;font-size: .16rem;display: block;width: 2.9rem;margin:0 auto;border: 1px solid #9D0808;border-radius: .04rem;background: #9d0808;}

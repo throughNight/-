@@ -1,0 +1,26 @@
+@charset "utf-8";
+body{font-family: "微软雅黑";}
+.mudidi{margin: .07rem auto 0;width: 99%;position: relative;text-align: center;}
+.mudidi li{background: white;position: relative;border-bottom: 1px solid #ccc;text-indent: .05rem;height: .55rem;}
+.mudidi li .ticketsInfo{margin-top: .01rem;}
+.mudidi li .ticketsInfo em{	display: block;float: left;font-size:.18rem;text-indent: .05rem;margin-top: .05rem;}
+.mudidi li .startIcon{display: block;float: left;margin-left:.1rem ;font-size: .12rem;background: url(../img/icon.png) no-repeat 0 -547px;text-indent: .15rem;}
+.mudidi li figure{display: block;	float: left;}
+.mudidi li figure img{display: block;	width: .7rem;height: .2rem;}
+.mudidi li figure figcaption{font-size: .12rem;color: #666666;}
+.mudidi li .endIcon{display: block;float:left;font-size: .12rem;background: url(../img/icon.png) no-repeat 0 -497px;text-indent: .15rem;margin-left: .05rem;}
+.mudidi li .ticketsInfo a{display: block;height:.3rem;width:.5rem;color:white;line-height: .3rem;background: #0080ff;border: 1px solid #0080ff;	border-radius: 4px;	position: absolute;	top: .11rem;	right: .03rem;	font-size: .16rem;	text-align: center;	text-indent: 0;}
+.mudidi li .ticketsNum{	position: absolute;	bottom: 0;font-size: .12rem;}
+.mudidi li .ticketsNum span{float:left ;margin-right: .15rem;}
+.mudidi li .ticketsNum .active{color: green;}
+.mudidi li:nth-child(1){color: white;height:.53rem;line-height: .53rem;background: url(../img/bg_tlisthd.png) repeat-x;font-weight: bold;font-size: .16rem;}
+.mudidi li:nth-child(1) a{position: absolute;left: .2rem;top:.02rem;color: white;font-size: .15rem;}
+.mudidi li:nth-child(2){height: .35rem;color: white;line-height: .35rem;}
+.mudidi li:nth-child(2) a{float: left;background: rgba(0,129,255,.6);color: white;display: block;width: 20%;font-size: .12rem;}
+.mudidi li:nth-child(2) p{float: left;background: rgba(0,129,255,.7);width: 60%;text-align: center;font-weight: bold;font-size: .14rem;}
+.fliter{position: fixed;bottom: 0;width: 100%;background: rgba(0,0,0,.9);}
+.fliter li{float: left;width: 25%;}
+.fliter a{display: block;float: left;text-align: center;line-height: .5rem;	color: white;font-size: .16rem;margin-left: .12rem;}
+.fliter i{display: block;float: right;width: .32rem;height: .06rem;background: url(../img/navbar.png) no-repeat -8px -32px;margin: .23rem 0 0 .04rem;}
+.fliter a.active{color: #0080ff;}
+.fliter a.active i{background: url(../img/navbar.png) no-repeat -8px -8px;}
